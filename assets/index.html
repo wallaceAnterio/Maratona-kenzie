@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="stylesheet" href="./reset.css" />
+      <link rel="stylesheet" href="./style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <!-- Cabeçalho -->
+      <header>
+         <div class="container">
+            <!-- Logo -->
+            <figure>
+               <img src="./img/netFlixLogo.jpg" alt="Logo" />
+               <figcaption>Kenzie Filmes</figcaption>
+            </figure>
+
+            <!-- Menu -->
+            <nav>
+               <ul>
+                  <li>
+                     <a href="">Inicio</a>
+                  </li>
+                  <li>
+                     <a href="">Filmes</a>
+                  </li>
+                  <li>
+                     <a href="">Series</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <!-- Conteúdo Principal -->
+      <main class="container">
+         <section>
+            <p>FILMES- FILMES ONLINE -FILMES GRÁTIS - FILMES ONLINE GRÁTIS</p>
+
+            <!-- Lista de categorias -->
+            <ul class="secaoCategorias">
+               <li>
+                  <a href="">Todos</a>
+               </li>
+               <li>
+                  <a href="">Comédia</a>
+               </li>
+               <li>
+                  <a href="">Ação</a>
+               </li>
+               <li>
+                  <a href="">Drama</a>
+               </li>
+               <li>
+                  <a href="">Romance</a>
+               </li>
+               <li>
+                  <a href="">Terror</a>
+               </li>
+            </ul>
+
+            <!-- Àrea de pesquisa -->
+            <div class="areaDePesquisa">
+               <input type="text" placeholder="Buscar Filme" />
+               <button class="btn">Pesquisar</button>
+            </div>
+
+            <!-- Lista de filmes -->
+            <ul class="listaDeFilmes"></ul>
+         </section>
+      </main>
+
+      <script src="./js/filmes.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>
